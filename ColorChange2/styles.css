@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: cyan; /* Initial color */
+}
+
+#text2 {
+    color: yellowgreen; /* Initial color */
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}

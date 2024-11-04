@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changing Box</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            color: white;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Color Changing Box</h2>
+
+    <div class="box" id="colorBox"></div>
+
+    <div class="buttons">
+        <button class="red" onclick="changeColor('red')">red</button>
+        <button class="green" onclick="changeColor('green')">green</button>
+        <button class="blue" onclick="changeColor('blue')">blue</button>
+    </div>
+
+    <script>
+        function changeColor(color) {
+            document.getElementById("colorBox").style.backgroundColor = color;
+        }
+    </script>
+
+</body>
+</html>

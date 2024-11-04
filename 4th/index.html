@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Color Change Program</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .container {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            margin: 0 auto;
+            width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .text {
+            margin: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Final Preview</h2>
+
+    <div class="container">
+        <h3>Font Color Change Program</h3>
+        <div class="text" id="text1" style="color: cyan;">Text 1</div>
+        <div class="text" id="text2" style="color: yellowgreen;">Text 2</div>
+        <button class="btn" onclick="changeFontColor()">Change Font color</button>
+    </div>
+
+    <script>
+        function changeFontColor() {
+            document.getElementById('text1').style.color = 'blue';
+            document.getElementById('text2').style.color = 'limegreen';
+        }
+    </script>
+
+</body>
+</html>

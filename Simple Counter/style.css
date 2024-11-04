@@ -1,0 +1,29 @@
+/* Styling for buttons */
+button {
+    background-color: #005663;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the counter display and buttons */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #333;
+}
+
+#counterDisplay {
+    font-size: 2em;
+    margin: 20px;
+}
